@@ -1,1 +1,62 @@
 /*  your css code here. If applicable */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0ebe8;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td {
+  vertical-align: top;
+  padding: 10px;
+  border: 1px solid #999;
+}
+
+.side-col {
+  width: 200px;
+  text-align: center;
+}
+
+.side-col img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.center-col {
+  width: 600px;
+  text-align: left;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
